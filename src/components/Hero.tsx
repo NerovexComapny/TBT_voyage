@@ -1,7 +1,7 @@
 import { IconChevronDown, IconStar } from './icons';
 import { imageKitSrcSet, imageKitUrl } from '../lib/imageKit';
 
-const HERO_IMAGE = 'sahratunisien.jpg';
+const HERO_IMAGE = 'https://ik.imagekit.io/63sim85mp/Untitled%20design%20(1).jpg';
 const heroSrc = imageKitUrl(HERO_IMAGE, { width: 1280, quality: 70 });
 const heroSrcSet = imageKitSrcSet(HERO_IMAGE, [640, 768, 1024, 1280]);
 
